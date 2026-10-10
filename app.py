@@ -76,7 +76,7 @@ if submit_btn:
     else:
         try:
             genai.configure(api_key=GOOGLE_API_KEY)
-            model = genai.GenerativeModel("gemini-2.5-flash")
+            model = genai.GenerativeModel("gemini-3.8-flash")
 
             prompt = f"""
             Bạn là một chuyên gia nghiên cứu khoa học sư phạm và viết Sáng kiến kinh nghiệm (SKKN) xuất sắc tại Việt Nam.
